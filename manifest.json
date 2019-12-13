@@ -1,0 +1,25 @@
+{
+  "name": "Science term explainer",
+  "description": "Finds scinece and explaines it, shortly.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "icons": { "64": "solar-system.png" },
+"background": {
+    "scripts": ["alpha.js"],
+    "persistent": false
+  },
+/*  "content_scripts": [
+    {
+      "matches": ["https://blogs.nasa.gov/*"],
+      //"css": ["mystyles.css"],
+      "js": ["explainer.js"]
+    }
+  ],*/
+  "browser_action": {
+    "default_title": "Explain sciency words"
+  },
+  "manifest_version": 2
+}
